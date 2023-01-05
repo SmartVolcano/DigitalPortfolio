@@ -1,0 +1,5 @@
+body {
+    background-color:#36004f;
+    font-family:"Lucida Handwriting", "Brush Script MT", Copperplate, Papyrus; 
+									  color:#00d6b6;
+}

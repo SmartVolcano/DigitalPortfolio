@@ -1,0 +1,71 @@
+
+<p><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1006</title>
+    <link rel="stylesheet" href=
+  </head>
+
+  <body>
+    <h1>CS-I Journal J1006: Source Control</h1>
+    <p>Name: Volkan Ozcomert</p>
+    <p>Date: 28-Aug-2022</p>
+
+    <p>I received assistance from: Bhargav Ashwin</p>
+    <p>I assisted: Bhargav Ashwin</p>
+
+    <h2>1.1:</h2>
+   <h3>What is Git communicating to you?</h3>
+    <p>It is communicating the author and date.<p>
+      
+    <h2>1.2:</h2>
+   <h3>What do you see that is common between this git log command and the previous git commit?</h3>
+    <p>It says (HEAD -> master).</p>
+
+    <h2>1.3:</h2>
+   <h3>Why do you think this is?</h3>
+    <p>I think it is showing us where it is going.</p>
+
+    <h2>2.1:</h2>
+    <h3>What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h3>
+    <p>They are displayed in red.</p>
+      
+    <h2>2.2:</h2>
+    <h3>Are they both displayed in the same section? If not, why not?</h3>
+    <p>Yes they are because they are in the same directory.</p>
+
+    <h2>3.1:</h2>
+    <h3>What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h3>
+    <p>They are now green.</p>
+
+    <h2>3.2:</h2>
+    <h3>Compare and contrast the manner in which the two files are displayed.</h3>
+    <p>It says file1.txt was modified and file2.txt is a new file.</p>
+
+    <h2>4.1:</h2>
+    <h3>How many files are listed as having been changed?</h3>
+    <p>Two files are listed.</p>
+
+    <h2>4.2:</h2>
+    <h3>What are the specific differences listed for each file? In what color is the difference displayed?</h3>
+    <p>The differences are green and it says "This is a new line." was added to file1.txt and "This is a new line in a new file." was added to file2.txt.</p>
+      
+    <h2>5.1:</h2>
+    <h3>What does Git tell you has changed? Why?</h3>
+    <p>Nothing happened because nothing changed.</p>
+
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>I learned how to use git command.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>Changing everything because of the change in W1005.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>I think the experience was good.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>I now know a bit of source control.</p>
+
+  </body>
+  </html>

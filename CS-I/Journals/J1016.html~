@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1002</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/index.html">Digital Journal</a>
+	 <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/index.html">Advanced Computer Science I</a>
+	 <a class="active" href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/Journals/J1002.html">J1002</a>
+    </div>
+    <h1>CS-I Journal J1016: Logic Compostition</h1>
+    <p>Name: Volkan Ozcomert</p>
+    <p>Date: 7-Oct-2022</p>
+
+    <p>I received assistance from: Richard Jang, Krishna Shah</p>
+    <p>I assisted: Richard Jang, Krishna Shah, the class</p>
+
+    <a href='https://tinyurl.com/2f454lja'><img src='../../images/NOTGATE.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2q4lxomd'><img src='../../images/ANDGATE.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2kos5eul'><img src='../../images/ORGATE.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2q5n3ovu'><img src='../../images/XORGATE.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2h85twh2'><img src='../../images/NORGATE.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2mj8puv7'><img src='../../images/7SEGMENTDISPLAY.png' img style="height: 50%; width: 50%;"></a>
+    
+    <hr class="rounded">
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p> I learned how to use logic gates to make things happen.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>It was difficult to figure out how to work the 7 segment display.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>I think the experience was good.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>I practiced problem solving to find a way to make the 7 segment diplay work.</p>
+    <img src="https://thumbs.gfycat.com/ClassicFlashyCorydorascatfish-size_restricted.gif">
+  </body>
+</html>

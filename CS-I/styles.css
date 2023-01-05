@@ -1,0 +1,84 @@
+body{
+    background-color:#80ff80;
+    font-family:"Lucida Handwriting";
+    color:#80bfff
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #003399;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ccffcc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ccffcc;
+    color: #003399;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: #660066;
+}
+body, html {
+    height: 100%;
+}
+.button1 {
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #256D85;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button.menu {
+    border: black;
+    background-color: grey;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    height: 100px;
+    float: right;
+
+}

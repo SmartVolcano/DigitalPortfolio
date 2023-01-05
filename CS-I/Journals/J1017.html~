@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1017</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/index.html">Digital Journal</a>
+	 <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/index.html">Advanced Computer Science I</a>
+	 <a class="active" href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/Journals/J1002.html">J1002</a>
+    </div>
+    <h1>CS-I Journal J1002: Shell</h1>
+    <p>Name: Volkan Ozcomert</p>
+    <p>Date: 18-Aug-2022</p>
+
+    <p>I received assistance from: No one</p>
+    <p>I assisted: No one</p>
+
+    <h2>1.1:</h2>
+   <h3>What truth table do you recognize that produces the output of the Carry column?</h3>
+    <p>I recognize the AND truth table for the output of the Carry column.<p>
+      
+    <h2>1.2:</h2>
+   <h3>What truth table do you recognize that produces the output of the Sum column?</h3>
+    <p>I recognize the XOR truth table for the output of the Sum column.</p>
+
+    <h2>2.1:</h2>
+   <h3>What do you notice about the relationship between the first-half (top four rows) of the full-adder as compared to all of the rows of the half-adder?</h3>
+    <p>All the outputs are the opposite except for the carry out when a and b are equal.</p>
+
+    <h2>2.2:</h2>
+   <h3>Why is this true?</h3>
+    <p>It is true because the carry in adds one.</p>
+      
+    <h2>3.1:</h2>
+    <h3>Why does the least significant bit position use a half-adder rather than a full-adder?</h3>
+    <p>It does not have a carry in.</p>
+
+    <h2>3.2:</h2>
+    <h3>Assume that proper inputs are applied for all bits in numbers A and B. Will the correct output from S be available instantaneously? If not, why not?</h3>
+    <p>Yes, because they happen in order.</p>
+
+    <h2>3.3:</h2>
+    <h3>Assume that we have a standard (non-scientific calculator) capable of adding two 16-bit words. Two numbers, A and B, are added together. After the addition, it is noted that C15 is high. What can we infer? What is this state commonly called?</h3>
+    <p>We can infer that it is higher than the amount a 16 bit integer can be. It is called the 16 bit integer limit.</p>
+
+    <a href='https://tinyurl.com/2k2s5e9w'><img src='../../images/HALFADDER.png' img style="height: 50%; width: 50%;"></a>
+    <a href='https://tinyurl.com/2ln2opzt'><img src='../../images/FULLADDER.png' img style="height: 50%; width: 50%;"></a>
+
+    <hr class="rounded">
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>The big idea is to do addition with binary in electronics.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>A challenge was figuring out how to make the full adder.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>I think the experience was good.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>I have trained more on making gates based on a truth table.</p>
+    <img src="https://www.gifcen.com/wp-content/uploads/2021/09/kirby-gif-16.gif">
+  </body>
+</html>
