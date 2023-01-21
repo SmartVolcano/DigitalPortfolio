@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ISP Journal</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/index.html">Digital Journal</a>
+	 <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/index.html">Advanced Computer Science I</a>
+	 <a class="active" href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-I/Projects/ISP/Journal.html">ISPJournal</a>
+    </div>
+
+<h1>2-Jan-2023</h1>
+    
+    <h2>Technical Challenges</h2>
+   <h3>None so far</h3>
+    <p><p>
+      
+    <h2>Scheduling Challenges</h2>
+   <h3>None so far</h3>
+    <p></p>
+
+    <h2>Interpersonal Challenges</h2>
+   <h3>None so far</h3>
+    <p></p>
+
+    <hr class="rounded">
+    
+    <h2>Development Engineer</h2>
+   <h3>Development engineers consider the goals of the team to design the product. I hope to help my team with ideas for our project. I also hope to learn enough swift to be helpful.</h3>
+    <p></p>
+      
+    <h2>QA Engineer</h2>
+    <h3>QA engineers are tasked with debugging the product before launch. I often miss things so I might not be the best for this job. However, if I want to do this I'll have to be more careful.</h3>
+    <p></p>
+
+    <h2>Project Engineer</h2>
+    <h3>A Project Engineer uses engineering skills to aid the team. I do not have much experience in Swift yet. However, I expect to get better with time.</h3>
+    <p></p>
+
+    <h2>Product Manager</h2>
+    <h3>A project manager controls other aspects such as meeting times to work on the project. I can be forgetful sometimes so I might not be the best for this role either. However, I hate letting others down so I will find ways to remember.</h3>
+    <p></p>
+
+    <h2>Release Engineer</h2>
+    <h3>A release engineer makes sure everything is completed and delivers the final product. Once I get better with Swift I am sure that I will be able to aid with this job. A release engineer seems only important at the end though.</h3>
+    <p></p>
+    
+    <img src="">
+  </body>
+</html>
