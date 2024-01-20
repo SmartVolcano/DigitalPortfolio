@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Advanced Computer Science II</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/index.html">Digital Portfolio</a>
+      <a class="active" href="https://www.codermerlin.com/users/volkan-ozcomert/Digital%20Portfolio/CS-II/index.html">Advanced Computer Science II</a>
+    </div>
+    <h1>Advanced Computer Science I</h1>
+
+    <h2>Projects</h2>
+    <ul>
+      <a href="Projects/ConspiracyTheory.html"><button type="button" class="button1"><span>Conspiracy Theory</span></button></a>
+      <br/>
+    </ul>
+    <img src="http://pa1.narvii.com/6887/51b18f38d052b1b72c74deb9f81a2b8438ea883ar1-300-250_00.gif">
+  </body>
+  </html>
