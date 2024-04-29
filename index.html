@@ -1,130 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Volkan Ozcomert" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="A digital portfolio for Volkan Ozcomert"
+  />
+  <meta
+    name="keywords"
+    content="Digital Portfolio, Volkan Ozcomert, Allen High School, Computer Science"
+  />
+  <title>Volkan Ozcomert's Digital Portfolio</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  <!-- tab -->
-  <head>
-    <meta charset="utf-8">
-    <title>Volkan Ozcomert's Amazing Digital Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<!--head ends here go away-->
 
-  <!-- navigation -->
+<body>
+  <div style="height: 100vh"></div>
+<!--filter 1-->
+  <div class="container-fluid background w-100 p-0" style="z-index: -1; height: 100%;">
+    <div class="water w-100 h-100 container-fluid position-absolute top-0 start-0 p-0"></div>
+    <svg>
+      <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+          <feDisplacementMap scale="100" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" 
+          keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
+      </filter>
+    </svg>
+  </div>
+
+<!--filter 2
+
+    <div class="container-fluid background w-100 p-0" style="z-index: -1; height: 100%;">
+      <div class="eye w-100 h-100 container-fluid position-absolute top-0 start-0 p-0"></div>
+      <svg>
+        <filter id="burbulence" x="0" y="0" width="100%" height="100%">
+            <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+            <feDisplacementMap scale="10" in="SourceGraphic"></feDisplacementMap>
+            <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" 
+            keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
+        </filter>
+      </svg>
+    </div>
+  -->
   
-  <body>
-    <div class="topnav">
-      <a class="active" href="index.html">Digital Portfolio</a>
-      <a href="CS-I/index.html">Advanced Computer Science I</a>
-      <a href="CS-II/index.html">Advanced Computer Science II</a>
-      <a href="CS-III/index.html">Advanced Computer Science III</a>
-    </div>
+    <!--
+    <div style="z-index: 2"></div>
+      <div class="h1">Digital Portfolio</div>
+      <hr />
 
-    <!-- hero image -->
-    
-    <div class="hero-image">
-      <div class="hero-text">
-	<h1>Digital Portfolio</h1>
-	<h2>Volkan Ozcomert</h2>
+      <div class="h2">About Me</div>
+      <div class="fs-5">
+        My name is <strong>Volkan Ozcomert</strong>. Currently, I am a student at
+        Allen High School enrolled in the International Baccalaureate program with
+        a curiosity which encourages me to strive for learning new skills.
+        Although I do not have the most in depth knowledge about the intricacies
+        of coding, I have great intrest in learning more and applying what I
+        learn. I mainly have intrests in Physics and in Computer Science, as well
+        as playing waterpolo. Additionally, I am the founder of the club called i
+        Read + Code which aimes to help refugees in the United States learn how to
+        code using Scratch and also start learning how to read. With this Digital
+        Portfolio, I hope to be able to showcase, test, and explore my website
+        building capabilities and also provide a platform I can use as a resume.
       </div>
-      <h1>About Me</h1>
-      <h2> My Name is Volkan Ozcomert. I play Waterpolo and am currently alive. The Digital Portfolio is important to me because I need it to submit my homework.</h2>
-      <img src="https://ci5.googleusercontent.com/proxy/M6OXbpbvJ83Dd2L0Q7dWOrrSTUtua3cJw6bBzM_pSjoehJsxqZvajPAvc7ahH90zv0A-9sneP7J8ZGVE21xjJfemLAh7xMJwq2whj5e8VUQvnDH-bJg6fH6En-Auhc6PBMNJw9EM3dmxwrLXV9LN_Mr12LyGVG1tOeC8xkcfcz6vJTXRWSA=s0-d-e1-ft#https://s3.amazonaws.com/iq-marketing/E9AXZ93/subjectimages/2128654807/1200/primary-8orbirw33k.png?ts=1663787278095" style="height: 500px; width: 500px; float: right;">
-      <br>
+
+      <hr />
+
+      <div class="h1 list">2021-2022</div>
+      <ul>
+        <li class="list">Robotics Club</li>
+        <li class="list">Waterpolo</li>
+        <ul>
+          <li class="list">Junior Olympics 2022</li>
+        </ul>
+        <li class="list">NJHS</li>
+      </ul>
+
+      <hr />
+
+      <div class="h1 list">2022-2023</div>
+      <ul>
+        <li class="list">Robotics</li>
+        <ul>
+          <li class="list">Mentoring</li>
+        </ul>
+        <li class="list">National Honor Society</li>
+        <li class="list">French</li>
+        <ul>
+          <li class="list">French Honor Society</li>
+          <li class="list">French Award</li>
+          <li class="list">Texas French Symposium</li>
+        </ul>
+        <li class="list">Computer Science</li>
+        <ul>
+          <li class="list">Cybersecurity</li>
+        </ul>
+        <li class="list">Waterpolo</li>
+        <ul>
+          <li class="list">Junior Olympics 2023</li>
+        </ul>
+      </ul>
+
+      <hr />
+
+      <div class="h1 list">2023-2024</div>
+      <ul>
+        <li class="list">Joined IB Program</li>
+        <div>
+          <div class="h3">CAS Portfolio</div>
+        </div>
+        <li class="list">Founder and President of I Read + Code</li>
+        <ul>
+          <li class="list">
+            Works with International Rescue Committee founded by Einstein
+          </li>
+        </ul>
+        <li class="list">Vice President of Allen Outreach club</li>
+        <ul>
+          <li class="list">Aims to create more interconnectedness in Allen</li>
+        </ul>
+        <li class="list">National Honor Society</li>
+        <li class="list">French</li>
+        <ul>
+          <li class="list">French Honor Society</li>
+          <li class="list">Texas French Symposium</li>
+        </ul>
+        <li class="list">Computer Science</li>
+        <ul>
+          <li class="list">Cybersecurity</li>
+        </ul>
+        <li class="list">Waterpolo</li>
+      </ul>
+
+      <hr />
+
+      <div class="h2">Contact Me</div>
+
+      <div class="h2">More Digital Portfolios</div>
+      <div>
+        <div class="h3">Richard Jang's Digital Portfolio</div>
+      </div>
+      <div>
+        <div class="h3">Darrion Nguyen's Digital Portfolio</div>
+      </div>
     </div>
-      <hr class="rounded">
-    <p your father will come home in></p>
-    <p id="demo"></p>
-      
-      <script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("Sep 11, 4001 8:46:30").getTime();
-	
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-	    
-	    // Get today's date and time
-	    var now = new Date().getTime();
-	    
-	    // Find the distance between now and the count down date
-	    var distance = countDownDate - now;
-	    
-	    // Time calculations for days, hours, minutes and seconds
-	    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-	    
-	    // Display the result in the element with id="demo"
-	    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-		+ minutes + "m " + seconds + "s ";
-	    
-	    // If the count down is finished, write some text
-	    if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("demo").innerHTML = "EXPIRED";
-	    }
-	}, 1000);
-      </script>
-      
-      <hr class="rounded">
-      
-      <h1 class="list">2021-2022</h1>
-      <ul>
-	<li class="list">Robotics Club</li>
-	<li class="list">Waterpolo</li>
-	<ul>
-	  <li class="list">Junior Olympics 2022</li>
-	  </ul>
-	<li class="list">NJHS</li>
-      </ul>
-      <hr class="rounded">
-      <h1 class="list">2022-2023</h1>
-      <ul>
-	<li class="list">Robotics</li>
-	<ul>
-	  <li class="list">Mentoring</li>
-	</ul>
-      </ul>
-      <ul>
-	<li class="list">National Honor Society</li>
-	  <li class="list">French Honor Society</li>
-	  <li class="list">Computer Science Clubs</li>
-	  <ul>
-	    <li class="list">OC3</li>
-	    <li class="list">Cybersecurity</li>
-	  </ul>
-      </ul>
-      <ul>
-	<li class="list">Waterpolo</li>
-	
-	<hr class="rounded">
-	
-	<div>
-	  <h3>Other EPIC Websites!</h3>
-	  <p>
-	    <a href="https://www.codermerlin.com/users/ming-ruei-jang/Digital%20Portfolio/index.html">
-	      <button onClick="playNanomachines()" type="button" class="button1" style="color: white; background-color: red; vertial-align: middle;">
-		  <span>
-		    Richard Jang
-		    <img src="https://preview.redd.it/egrgnvog9qk91.png?auto=webp&s=8aedc1257f9f521baf8d1e89d997e2d6f40f96b2" style="height: 25px; width: 25px; float: left; vertical-align: middle;">
-		  </span>
-		</button>
-	    </a>
-	  </p>
-	  <p>
-	    <a href="https://www.codermerlin.com/users/darrion-nguyen/Digital%20Portfolio/index.html">
-	      <button onClick="playNanomachines()" type="button" class="button1" style="color: white; background-color: blue; vertial-align: middle;">
-		<span>
-		  Darrion Nguyen
-		  <img src="https://preview.redd.it/egrgnvog9qk91.png?auto=webp&s=8aedc1257f9f521baf8d1e89d997e2d6f40f96b2" style="height: 25px; width: 25px; float: left; vertical-align: middle;">
-		</span>
-	      </button>
-	    </a>
-	  </p>
-	  <br>
-	</div>
-	
-	<hr class="rounded">	  
-</div>    
+  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
 </body>
 </html>
-
